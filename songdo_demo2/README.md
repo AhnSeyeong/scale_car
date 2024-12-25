@@ -2,6 +2,8 @@
 
 이 코드들은 모두 WeGo Robotics사의 제품인 Webot2.0 환경에서 개발이 되었다.
 
+![Webot2.0](https://github.com/AhnSeyeong/scale_car/blob/main/contents/webot.png)
+
 따라서 이 코드들을 다른 플랫폼에서 적용하려면 플랫폼에 장착된 센서에 맞춰 해당 코드의 알고리즘을 사용하여야 한다.
 
 
