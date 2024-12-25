@@ -9,19 +9,19 @@
 
 이 코드에서는 두 개의 autorace_smach.py 파일과 autorace_perception.py 파일로 동작합니다. 나머지 코드들은 autorace_smach.py의 모듈로써 동작합니다.
 
-#### songdo_laneFollow.py
+### +songdo_laneFollow.py
 
 이 코드는 차선 추종을 위한 코드입니다. 카메라 상에서 양 차선을 인식해서 차선의 중앙 지점을 추종하도록 합니다.
 
 차선이 하나만 잡히는 경우에도 좌,우측을 구분하여 중앙점을 추종하도록 합니다.
 
 
-### autorace_wall.py
+### +autorace_wall.py
 
 이 코드는 터널 주행을 위한 코드입니다. 터널 내부에서 양쪽 벽간의 거리가 동일하도록 PID 제어를 이용하여 주행합니다.
 
 
-### autorace_cone.py
+### +autorace_cone.py
 
 이 코드는 라바콘 코스 주행을 위한 코드입니다. 좌측과 우측 라바콘을 클러스터링하여 분류하고 좌, 우측 중 라바콘이 많은 곳과 일정한 offset을 유지하도록 하여 주행합니다.
 
